@@ -9,11 +9,11 @@ func greeting(name: String){
 greeting(name: "Dan")
 
 //:  Write a function that takes two `Int` arguments, and returns an `Int`. The function should multiply the two arguments, add 2, then return the result. Use the function and print the result.
-func num(num1: Int, num2: Int){
+func number(num1: Int, num2: Int){
     var totalnum = (num1 * num2) + 2
     print(totalnum)
 }
-num(num1: 2, num2: 3)
+number(num1: 2, num2: 3)
 /*:
 [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Separating Functions](@next)
  */
