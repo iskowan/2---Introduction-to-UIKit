@@ -17,9 +17,13 @@ struct Post {
     var message: String
     var likes: Int
     var numberOfComments: Int
-
+    mutating func like(){
+        likes += 1
+    }
 }
-
+var post = Post(message: "hi", likes: 0, numberOfComments: 0)
+post.like()
+print(post.likes)
 
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Workout Functions](@next)
