@@ -30,7 +30,7 @@ if commitedChallenges.isEmpty {
     print("Please commmit to a challenge")
 }
 else if commitedChallenges.count == 1 {
-    print("The challenge that you have chosen is \(commitedChallenges)")
+    print("The challenge that you have chosen is: \(commitedChallenges[0])")
 } else {
     print("You have chosen mulitple challenges")
 }

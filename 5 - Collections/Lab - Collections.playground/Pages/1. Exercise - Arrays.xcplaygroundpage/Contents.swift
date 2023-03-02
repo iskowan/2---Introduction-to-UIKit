@@ -17,10 +17,11 @@ print(registrationList)
 registrationList.insert("Charlie", at: 1)
 print(registrationList)
 //:  Somebody had a conflict and decided to transfer registration to someone else. Use array subscripting to change the sixth element to `Rebecca`. Print the contents of the collection.
-
-
+registrationList[5] = "Rebecca"
+print(registrationList)
 //:  Call `removeLast()` on `registrationList`. If done correctly, this should remove `Rebecca` from the collection. Store the result of `removeLast()` into a new constant `deletedItem`, then print `deletedItem`.
-
+registrationList.removeLast()
+print(registrationList)
 
 /*:
 page 1 of 4  |  [Next: App Exercise - Activity Challenge](@next)
